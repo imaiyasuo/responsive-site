@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+header .topimage {
+  background-image: url("../image/L7.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: center center; }
+
+main h1 {
+  text-align: center;
+  background-color: #fffacd; }
+
+.container {
+  display: flex;
+  flex-direction: row; }
+  .container .box {
+    /*
+    border:solid 1px skyblue;
+    */
+    margin: 5px;
+    background-color: #fffacd;
+    flex: 1; }
+    .container .box h2 {
+      text-align: center;
+      background-color: #ffa500;
+      margin: 0px; }
+    .container .box p {
+      padding: 10px;
+      margin: 0px; }
+
+.button {
+  font-size: 20px;
+  display: block;
+  width: 200px;
+  padding: 5px;
+  margin: 10px auto;
+  background-color: #ffa500;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+@media (max-width: 768px) {
+  header .topimage {
+    height: 250px; }
+
+  .container {
+    flex-direction: column; } }
+footer {
+  background-color: #fffacd; }
+  footer p {
+    text-align: center;
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
